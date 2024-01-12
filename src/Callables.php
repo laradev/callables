@@ -10,9 +10,9 @@ trait Callables
     public function __call(string $name, array $arguments): mixed
     {
         $ref = new \ReflectionClass($this);
-        $property = str_replace(['set', 'get', 'add'], '', $name);
+        $property = lcfirst((str_replace(['set', 'get', 'add'], '', $name)));
 
-        if (!$ref->hasProperty(lcfirst($property))) {
+        if (!$ref->hasProperty($property)) {
             $class = $this::class;
             throw new \Exception("Property {$property} is not found in {$class}");
         }
