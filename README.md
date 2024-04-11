@@ -11,7 +11,7 @@ This avoids creating a multitude of methods that are not always optimal to read.
 
 ## Usage
 ```php
-use Wearelaradev\Callables\Callables;
+use Laradev\Callables\Callables;
 
 class MyObject 
 {
