@@ -5,6 +5,8 @@
  * (c) Darras Florian florian@laradev.ca
  */
 
+namespace Laradev\Callables;
+
 trait Callables
 {
     public function __call(string $name, array $arguments): mixed
