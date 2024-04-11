@@ -16,7 +16,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "Laradev\\Serializable\\": "src/"
+      "Laradev\\Callables\\": "src/"
     }
   }
 }
