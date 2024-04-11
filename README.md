@@ -6,12 +6,12 @@ This avoids creating a multitude of methods that are not always optimal to read.
 ## Getting started
 
 ```bash
-    composer require laradev/callables
+    composer require wearelaradev/callables
 ```
 
 ## Usage
 ```php
-use Laraved\Callables\Callables;
+use Wearelaradev\Callables\Callables;
 
 class MyObject 
 {
